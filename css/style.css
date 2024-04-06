@@ -133,6 +133,10 @@ footer {
         width: 80%;  
         margin: 0 auto; 
     }
+
+    footer {
+        margin-bottom: 3rem;
+    }
 }
 
 @media (min-width: 991px) and (max-width: 1024px) {
