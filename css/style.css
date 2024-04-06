@@ -101,6 +101,10 @@ footer {
 }
 
 @media (max-width:  767px) {
+    html {
+        scroll-behavior: smooth;
+    }
+    
     header {
         margin: 1rem;
     }
