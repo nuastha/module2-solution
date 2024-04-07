@@ -1,11 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 
-@import url('https://fonts.googleapis.com/css?family=Marvel:regular,italic,700,700italic');
+@import url(https://fonts.googleapis.com/css?family=Marvel:regular,italic,700,700italic);
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -34,7 +38,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin: 5rem 0;
+    margin: 2rem 0;
 }
 
 .app>div h3 {
@@ -65,6 +69,31 @@ header {
     background-color: #19a759;
     text-transform: capitalize;
 }
+
+.timer {
+    text-align: center;
+    text-transform: capitalize;
+    /* border: #19a759 solid 4px; */
+    border-radius: 10px;
+    padding: 1rem;
+    color: #4651e0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92.6%;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: #cf6552  dashed 1px; */
+    text-align: center;
+    padding: 0.8rem;
+}
+
 
 footer {
     text-align: center;
